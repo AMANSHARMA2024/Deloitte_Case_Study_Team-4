@@ -188,15 +188,24 @@ body{
 
 footer{
     display: grid;
-    grid-template-columns: repeat(3,1fr);
-    gap: 40px;
+    grid-template-columns: 3fr 2fr 3fr;
     padding: 50px;
     background-color: gray;
 }
 
 footer h6{
+    color: black;
     font-weight: bold;
     font-size: 102%;
+}
+
+.footer-left{
+    padding: 10px;
+    padding-right: 30px;
+}
+
+.footer-center, .footer-right{
+    color: white;
 }
 
 .footer-center > i{
@@ -207,7 +216,7 @@ footer h6{
     width: auto;
     display: grid;
     grid-template-columns: repeat(2,1fr);
-    gap: 40px;
+    gap: 0px;
 }
 
 .footer-right > ul{
@@ -215,7 +224,7 @@ footer h6{
 }
 
 .footer-right > ul > li >a{
-    color: black;
+    color: white;
     text-decoration: none;
 }
 
