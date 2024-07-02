@@ -314,4 +314,14 @@ footer h6{
     .footer-left, .footer-center, .footer-right {
         padding: 20px;
     }
+
+    .women-display-container, .men-display-container, .kids-display-container{
+        grid-template-columns: repeat(3,1fr);
+    }
+}
+
+@media (max-width: 426px) {
+    .women-display-container, .men-display-container, .kids-display-container{
+        grid-template-columns: repeat(2,1fr);
+    }
 }
