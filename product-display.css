@@ -9,12 +9,13 @@ body{
 
 .product-display-root{
     width: 100vw;
-    background-color: rgb(234, 234, 234);
+    /* background-color: rgb(234, 234, 234); */
 }
 
 .navbar{
     /* z-index: 100; */
     padding: 20px 20px 20px 60px;
+    background-color: rgb(234, 234, 234);
     animation: slideDown 1s linear;
 }
 
