@@ -201,17 +201,28 @@
                 display: center;
             }
         }
-        footer{
+        
+
+footer{
     display: grid;
-    grid-template-columns: repeat(3,1fr);
-    gap: 40px;
+    grid-template-columns: 3fr 2fr 3fr;
     padding: 50px;
     background-color: gray;
 }
 
 footer h6{
+    color: black;
     font-weight: bold;
     font-size: 102%;
+}
+
+.footer-left{
+    padding: 10px;
+    padding-right: 30px;
+}
+
+.footer-center, .footer-right{
+    color: white;
 }
 
 .footer-center > i{
@@ -222,7 +233,7 @@ footer h6{
     width: auto;
     display: grid;
     grid-template-columns: repeat(2,1fr);
-    gap: 40px;
+    gap: 0px;
 }
 
 .footer-right > ul{
@@ -230,10 +241,10 @@ footer h6{
 }
 
 .footer-right > ul > li >a{
-    color: black;
+    color: white;
     text-decoration: none;
 }
-
+       
 ::-webkit-scrollbar {
     width: 1px;
 }
@@ -255,7 +266,7 @@ footer h6{
     background: #aaa;
     border-radius: 5px;
   }
-
+ 
 /* Media Queries */
 
 @media (max-width: 767px) {
@@ -285,7 +296,7 @@ footer h6{
     .footer-left, .footer-center, .footer-right {
         padding: 20px;
     }
-}
+} 
 
         
     </style>
@@ -386,44 +397,49 @@ footer h6{
 
     <!-- Footer -->
     <!-- Footer -->
-    <footer>
-        <div class="footer-left">
-          <h2 class="navbar-brand">FAshioneeRS!</h2>
-          <p>The Pioneers of Modern Fashion</p>
-        </div>
-        <div class="footer-center">
-          <h6>Experience Fashioneers on Mobile</h6>
-          <i class="fa-brands fa-google-play fa-xl"></i>Get it on Google Play <br />
-          <i class="fa-brands fa-app-store-ios fa-xl"></i>Download on App Store<br /><br />
-          <h6>Keep in touch</h6>
-          <i class="fa-brands fa-facebook fa-xl"></i>
-          <i class="fa-brands fa-twitter fa-xl"></i>
-          <i class="fa-brands fa-youtube fa-xl"></i>
-          <i class="fa-brands fa-instagram fa-xl"></i>
-        </div>
-        <div class="footer-right">
-          <ul>
-            <h6>Online Shopping</h6>
-            <li><a href="mens.html">Men</a></li>
-            <li><a href="womens.html">Women</a></li>
-            <li><a href="kids.html">Kids</a></li>
-            <li><a href="footweear.html">Footwear</a></li>
-          </ul>
+    
 
-          <ul>
-            <h6>Customer Policies</h6>
-            <li><a href="#">Contact Us</a></li>
-            <li><a href="#">FAQ</a></li>
-            <li><a href="#">T&C</a></li>
-            <li><a href="#">Terms of Use</a></li>
-            <li><a href="#">Track Orders</a></li>
-            <li><a href="#">Shipping</a></li>
-            <li><a href="#">Cancellation</a></li>
-            <li><a href="#">Returns</a></li>
-            <li><a href="#">Privacy Policy</a></li>
-            <li><a href="#">Grievance Officer</a></li>
-          </ul>
-        </div>
-      </footer>
+<!-- Footer -->
+              <footer>
+                <div class="footer-left">
+                  <h2 class="navbar-brand">FAshioneeRS!</h2>
+                  <p>The Pioneers of Modern Fashion</p>
+                  <br>
+                  <p>Enjoy the hassle-free experience as you shop comfortably from your home or your workplace. You can also shop for your friends, family and loved-ones and avail our gift services for special occasions.</p>
+                </div>
+                <div class="footer-center">
+                  <h6>Experience Fashioneers on Mobile</h6>
+                  <i class="fa-brands fa-google-play fa-xl"></i>Get it on Google Play <br />
+                  <i class="fa-brands fa-app-store-ios fa-xl"></i>Download on App Store<br /><br />
+                  <h6>Keep in touch</h6>
+                  <i class="fa-brands fa-facebook fa-xl"></i>
+                  <i class="fa-brands fa-twitter fa-xl"></i>
+                  <i class="fa-brands fa-youtube fa-xl"></i>
+                  <i class="fa-brands fa-instagram fa-xl"></i>
+                </div>
+                <div class="footer-right">
+                  <ul>
+                    <h6>Online Shopping</h6>
+                    <li><a class="footer-right-text" href="./mens.html">Men</a></li>
+                    <li><a class="footer-right-text" href="./womens.html">Women</a></li>
+                    <li><a class="footer-right-text" href="./kids.html">Kids</a></li>
+                    <li><a class="footer-right-text" href="./footwear.html">Footwear</a></li>
+                  </ul>
+
+                  <ul>
+                    <h6>Customer Policies</h6>
+                    <li><a class="footer-right-text" href="#">Contact Us</a></li>
+                    <li><a class="footer-right-text" href="#">FAQ</a></li>
+                    <li><a class="footer-right-text" href="#">T&C</a></li>
+                    <li><a class="footer-right-text" href="#">Terms of Use</a></li>
+                    <li><a class="footer-right-text" href="#">Track Orders</a></li>
+                    <li><a class="footer-right-text" href="#">Shipping</a></li>
+                    <li><a class="footer-right-text" href="#">Cancellation</a></li>
+                    <li><a class="footer-right-text" href="#">Returns</a></li>
+                    <li><a class="footer-right-text" href="#">Privacy Policy</a></li>
+                    <li><a class="footer-right-text" href="#">Grievance Officer</a></li>
+                  </ul>
+                </div>
+              </footer>
 </body>
 </html>
